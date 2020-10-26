@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+#checkerboard{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    justify-content: center;
+    border: 5px solid black;
+    margin: auto;
+}
+
+.black{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
